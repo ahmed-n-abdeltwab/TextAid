@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Visual Accessibility Helper",
+  "name": "TextAid",
   "version": "1.0",
   "description": "Helps users with visual impairments by providing font size control, font family switching, and theme toggling.",
   "permissions": [
@@ -9,7 +9,7 @@
   ],
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Visual Accessibility Helper"
+    "default_title": "TextAid"
   },
   "icons": {
     "16": "icons/icon-16.png",
