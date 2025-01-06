@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Visual Accessibility Helper</h2>
+    
+    <div class="control-group">
+      <label>Font Size: <span id="fontSizeValue">100</span>%</label>
+      <input type="range" id="fontSize" min="100" max="200" value="100" step="1">
+    </div>
+
+    <div class="control-group">
+      <label>Font Family:</label>
+      <select id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="OpenDyslexic">OpenDyslexic</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+      </select>
+    </div>
+
+    <div class="control-group">
+      <label>Theme:</label>
+      <select id="theme">
+        <option value="default">Default</option>
+        <option value="dark">Dark Mode</option>
+        <option value="light">Light Mode</option>
+      </select>
+    </div>
+
+    <button id="reset">Reset All</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
